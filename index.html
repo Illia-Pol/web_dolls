@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolls East — Pop Mart и дизайнерские куклы</title>
+    <meta
+      name="description"
+      content="Dolls East: основной магазин кукол Pop Mart и kawaii-серий. Быстрые дропы, подарочные наборы, доставка по Беларуси, РФ и СНГ."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="theme-dolls">
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+
+    <div class="announcement">
+      <div class="container">
+        <p>Основной фокус: куклы Pop Mart и kawaii blind box | Новые дропы каждую неделю</p>
+      </div>
+    </div>
+
+    <header class="container header" id="top">
+      <a class="logo" href="./index.html">Dolls East</a>
+      <nav>
+        <a href="#catalog">Каталог</a>
+        <a href="#series">Серии</a>
+        <a href="#gift">Подарки</a>
+        <a href="./cosmetics.html">Косметика Capsule</a>
+      </nav>
+      <a class="btn btn-dark" href="#contact">Заказать</a>
+    </header>
+
+    <main>
+      <section class="container hero reveal">
+        <div class="hero-copy">
+          <p class="pill">dolls-first store</p>
+          <h1>Самая красивая коллекция кукол из Кореи и Китая для подростков и мам</h1>
+          <p>
+            Это основное направление магазина: blind box, plush pendant и коллекционные
+            фигурки. Мы показываем реальные фото, проверяем оригинальность и собираем
+            подарки под бюджет.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-pink" href="#catalog">Смотреть хиты</a>
+            <a class="btn btn-soft" href="#gift">Готовые подарки</a>
+          </div>
+          <div class="meta-list">
+            <span>Pop Mart trend</span>
+            <span>Проверка упаковки</span>
+            <span>Доставка BY / RU / СНГ</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="frame frame-main">
+            <img src="./assets/images/dolls/doll-suri.jpg" alt="Коллекционная кукла Suri" />
+          </figure>
+          <figure class="frame frame-sub">
+            <img src="./assets/images/dolls/doll-kikura.jpg" alt="Коллекционная кукла Kikura" />
+          </figure>
+          <figure class="frame frame-sub">
+            <img src="./assets/images/dolls/doll-nommi.jpg" alt="Кукла Nommi" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="container reveal" id="catalog">
+        <div class="section-title-row">
+          <h2>Каталог кукол</h2>
+          <div class="filter-bar" role="tablist" aria-label="Фильтр каталога">
+            <button class="is-active" data-filter="all">Все</button>
+            <button data-filter="blind">Blind box</button>
+            <button data-filter="plush">Plush</button>
+            <button data-filter="gift">Gift sets</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-cat="blind">
+            <img src="./assets/images/dolls/doll-nanci.jpg" alt="Nanci Best Wishes" />
+            <p class="tag">Blind box</p>
+            <h3>Nanci Best Wishes</h3>
+            <p>Нежная серия для коллекции и подарка.</p>
+            <div class="product-row">
+              <strong>от 89 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="blind">
+            <img src="./assets/images/dolls/doll-kikura.jpg" alt="KIKURA series" />
+            <p class="tag">Designer toy</p>
+            <h3>KIKURA Whalefall</h3>
+            <p>Лимитированная серия с wow-детализацией.</p>
+            <div class="product-row">
+              <strong>от 119 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="plush">
+            <img src="./assets/images/dolls/doll-mioco.jpg" alt="Mioco plush" />
+            <p class="tag">Plush</p>
+            <h3>Mioco Plush Blind Box</h3>
+            <p>Трендовые плюш-подвесы в мягкой эстетике.</p>
+            <div class="product-row">
+              <strong>от 79 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="plush">
+            <img src="./assets/images/dolls/doll-yooki.jpg" alt="Yooki plush" />
+            <p class="tag">Plush</p>
+            <h3>Yooki Starlit Traces</h3>
+            <p>Мягкая серия, которую часто берут для детей.</p>
+            <div class="product-row">
+              <strong>от 74 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="blind">
+            <img src="./assets/images/dolls/doll-loloan.jpg" alt="Loloan series" />
+            <p class="tag">Blind box</p>
+            <h3>Loloan Dream Float</h3>
+            <p>Коллекционная серия для девочек-подростков.</p>
+            <div class="product-row">
+              <strong>от 92 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="blind">
+            <img src="./assets/images/dolls/doll-tomiz.jpg" alt="Tomiz series" />
+            <p class="tag">Blind box</p>
+            <h3>TOMIZ Electronic Pets</h3>
+            <p>Яркие персонажи с милой мульт-стилистикой.</p>
+            <div class="product-row">
+              <strong>от 86 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="gift">
+            <img src="./assets/images/dolls/doll-suri.jpg" alt="Suri gift set" />
+            <p class="tag">Gift set</p>
+            <h3>Набор для дочки</h3>
+            <p>Кукла + упаковка + открытка, готово к подарку.</p>
+            <div class="product-row">
+              <strong>от 129 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="gift">
+            <img src="./assets/images/dolls/doll-nommi.jpg" alt="Nommi gift set" />
+            <p class="tag">Gift set</p>
+            <h3>Набор мама + дочка</h3>
+            <p>2 позиции из дропа + бонусный аксессуар.</p>
+            <div class="product-row">
+              <strong>от 165 BYN</strong>
+              <button type="button">В бронь</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container reveal" id="series">
+        <h2>Что сейчас в тренде</h2>
+        <div class="series-grid">
+          <article>
+            <h3>Blind Box Weekly</h3>
+            <p>Самые быстрые продажи и лучший возврат клиентов.</p>
+          </article>
+          <article>
+            <h3>Plush Pendant</h3>
+            <p>Отличный подарок до 100 BYN для девочек и подростков.</p>
+          </article>
+          <article>
+            <h3>Коллекционные серии</h3>
+            <p>Позиции для тех, кто уже собирает и ждёт новые дропы.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container cosmetics-teaser reveal">
+        <div>
+          <p class="pill">extra direction</p>
+          <h2>Отдельная страница косметики как limited capsule</h2>
+          <p>
+            Косметика не конкурирует с куклами на главной. Мы вынесли ее в отдельную витрину
+            как редкую капсулу: ограниченные позиции, красивый визуал и формат "пока есть".
+          </p>
+          <a class="btn btn-pink" href="./cosmetics.html">Перейти в Cosmetics Capsule</a>
+        </div>
+        <div class="teaser-images">
+          <img src="./assets/images/cosmetics/cos-medicube-pink.jpg" alt="Cosmetics capsule" />
+          <img src="./assets/images/cosmetics/cos-model-rosemary.jpg" alt="K-beauty capsule" />
+        </div>
+      </section>
+
+      <section class="container reveal" id="gift">
+        <h2>Почему выбирают нас</h2>
+        <div class="trust-grid">
+          <article>
+            <h3>Реальные фото перед отправкой</h3>
+            <p>Показываем состояние коробки и маркировку.</p>
+          </article>
+          <article>
+            <h3>Подборки под бюджет</h3>
+            <p>Быстро советуем позиции для подарка ребенку.</p>
+          </article>
+          <article>
+            <h3>Упаковка и забота</h3>
+            <p>Подарочный вид без доплат от нужной суммы.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container contact-panel reveal" id="contact">
+        <div>
+          <p class="pill">order now</p>
+          <h2>Оставь заявку, и мы подберем 5 лучших кукол под твой бюджет</h2>
+          <p>Ответ обычно в течение 20 минут в Telegram или WhatsApp.</p>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Имя
+            <input type="text" placeholder="Как к тебе обращаться" />
+          </label>
+          <label>
+            Telegram / WhatsApp
+            <input type="text" placeholder="@username или номер" />
+          </label>
+          <label>
+            Запрос
+            <textarea rows="4" placeholder="Например: подарочный набор до 130 BYN для девочки 10 лет"></textarea>
+          </label>
+          <button type="button" class="btn btn-dark">Отправить</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>© 2026 Dolls East</p>
+      <p>Основной бизнес: куклы и фигурки</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
